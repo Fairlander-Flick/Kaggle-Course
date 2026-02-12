@@ -1,19 +1,35 @@
-# Q1
+# ================================================================
+#  Kaggle - Intro to Programming
+#  Exercise: Arithmetic and Variables
+# ================================================================
+
+
+# ----------------------------------------------------------------
+#  Q1 - Hello, World!
+# ----------------------------------------------------------------
+
 print("Hello, world!")
 
 # DO NOT REMOVE: Mark this question as completed
 q1.check()
 
-# Q2
-# TODO: Change the message
+
+# ----------------------------------------------------------------
+#  Q2 - Custom Message
+# ----------------------------------------------------------------
+
 print("Your message here!")
 
 # DO NOT REMOVE: Mark this question as completed
 q2.check()
 
-# Q3
+
+# ----------------------------------------------------------------
+#  Q3 - Solution Review
+# ----------------------------------------------------------------
+
 # Uncomment to get a hint
-#q3.hint()
+# q3.hint()
 
 # Uncomment to view solution
 q3.solution()
@@ -21,7 +37,11 @@ q3.solution()
 # DO NOT REMOVE: Check your answer
 q3.check()
 
-# Q4
+
+# ----------------------------------------------------------------
+#  Q4 - Seconds in Four Years & Daily Births
+# ----------------------------------------------------------------
+
 # Create variables
 num_years = 4
 days_per_year = 365
@@ -33,16 +53,20 @@ secs_per_min = 60
 total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_years
 print(total_secs)
 
-# TODO: Set the value of the births_per_min variable
+# Set the value of the births_per_min variable
 births_per_min = 250
 
-# TODO: Set the value of the births_per_day variable
+# Set the value of the births_per_day variable
 births_per_day = 24 * 60 * births_per_min
 
 # DO NOT REMOVE: Check your answer
 q4.check()
 
-# Q5
+
+# ----------------------------------------------------------------
+#  Q5 - Titanic Dataset Analysis
+# ----------------------------------------------------------------
+
 # Load the data from the titanic competition
 import pandas as pd
 titanic_data = pd.read_csv("../input/titanic/train.csv")
@@ -62,16 +86,12 @@ print(survived)
 minors = (titanic_data.Age < 18).sum()
 print(minors)
 
-# TODO: Fill in the value of the survived_fraction variable
+# Fill in the value of the survived_fraction variable
 survived_fraction = survived / total
-
-# Print the value of the variable
 print(survived_fraction)
 
-# TODO: Fill in the value of the minors_fraction variable
+# Fill in the value of the minors_fraction variable
 minors_fraction = minors / total
-
-# Print the value of the variable
 print(minors_fraction)
 
 # DO NOT REMOVE: Check your answer

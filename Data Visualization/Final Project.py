@@ -84,9 +84,6 @@ plt.xlabel('Age Group', fontsize=12)
 plt.ylabel('Average Weekend Screen Time (Hours)', fontsize=12)
 plt.legend(title='Gender')
 
-# Show the plot
-plt.show()
-
 # Step 6: Numerical Summary (Pivot Table)
 pivot_summary = my_data.groupby(['Age_Group', 'Gender'])['Weekend_Screen_Time_Hours'].mean().unstack()
 print("\nMean Weekend Screen Time Summary:")

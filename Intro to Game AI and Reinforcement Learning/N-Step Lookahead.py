@@ -1,3 +1,3 @@
 # ================================================================
-#  Kaggle - Computer Vision
+#  Kaggle - Intro to Game AI and Reinforcement Learning: N-Step Lookahead
 # ================================================================

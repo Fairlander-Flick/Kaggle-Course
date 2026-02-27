@@ -1,3 +1,3 @@
 # ================================================================
-#  Kaggle - Intro to Game AI and Reinforcement Learning
+#  Kaggle - Geospatial Analysis: Manipulating Geospatial Data
 # ================================================================

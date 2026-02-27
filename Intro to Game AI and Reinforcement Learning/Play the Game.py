@@ -1,3 +1,3 @@
 # ================================================================
-#  Kaggle - Time Series
+#  Kaggle - Intro to Game AI and Reinforcement Learning: Play the Game
 # ================================================================
